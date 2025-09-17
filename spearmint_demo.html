@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title | default: site.title | default: "ClasslessSpearmint" }}</title>
+    <title>Spearmint Demo</title>
     <link rel="stylesheet" href="/classlessspearmint.css">
 </head>
 <body>
@@ -11,7 +11,7 @@
       <h1>Classless CSS Test Suite</h1>
       <p>This document serves as a test suite for classless CSS frameworks. It's designed to ensure your styles add just the right seasoning to every semantic HTML element, checking for visual consistency and thoughtful defaults. Try selecting text, hovering over links and buttons, and interacting with the form elements below to get a taste of the design.</p>
     </header>
-    
+
     <nav>
       <h2>Table of Contents</h2>
       <ul>
@@ -23,34 +23,34 @@
         <li><a href="#forms">Forms & Inputs</a></li>
       </ul>
     </nav>
-    
+
     <hr>
-    
+
     <section id="text">
       <h2>Text & Typography</h2>
-    
+
       <h1>A Dash of Style</h1>
       <h2>Enhancing Every Element</h2>
       <h3>Flavorful Typography</h3>
       <h4>Bringing Out the Best</h4>
       <h5>Subtle Seasoning</h5>
       <h6>The Essential Base</h6>
-    
+
       <p>This is a standard paragraph. It can contain <strong>strong ingredients</strong>, <em>emphasized notes</em>, and <a href="#!">links that blend seamlessly</a>. You can also <mark>highlight key flavors</mark> using the `mark` tag. Other inline elements include <del>discarded ideas</del>, <ins>fresh additions</ins>, <u>underlined truths</u>, <s>outdated recipes</s>, <code>inline salt crystals</code>, <sub>subtle hints</sub>, and <sup>elevated concepts</sup>.</p>
       <p>Another paragraph to demonstrate vertical margin. Every grain contributes to the overall profile. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </section>
-    
+
     <hr>
-    
+
     <section id="grouping">
       <h2>Grouping & Quoting</h2>
-    
+
       <p>Blockquotes and citations are styled as follows:</p>
       <blockquote>
         <p>Without salt, there is no flavor. It is a fundamental element, like life itself.</p>
       </blockquote>
       <cite>Attributed to ancient chefs</cite>
-    
+
       <p>Pre-formatted text is often used for recipes or process notes:</p>
       <pre>function addSalt(dish, amountInGrams) {
       if (amountInGrams > 0) {
@@ -61,9 +61,9 @@
       }
     }</pre>
     </section>
-    
+
     <hr>
-    
+
     <section id="lists">
       <h2>Lists</h2>
       <p>These are standard list types, ready for your ingredients or instructions.</p>
@@ -79,14 +79,14 @@
         </li>
         <li>Table Salt</li>
       </ul>
-    
+
       <h3>Ordered List (Simple Recipe Steps)</h3>
       <ol>
         <li>Season protein generously.</li>
         <li>Sear until golden brown.</li>
         <li>Rest before serving.</li>
       </ol>
-    
+
       <h3>Definition List (Culinary Terms)</h3>
       <dl>
         <dt>Umami</dt>
@@ -95,9 +95,9 @@
         <dd>Water saturated with salt, often used for curing or preserving foods.</dd>
       </dl>
     </section>
-    
+
     <hr>
-    
+
     <section id="tables">
       <h2>Tables</h2>
       <p>Tables organize your data neatly, like ingredients in a pantry.</p>
@@ -132,9 +132,9 @@
         </tbody>
       </table>
     </section>
-    
+
     <hr>
-    
+
     <section id="media">
       <h2>Media & Figures</h2>
       <p>Figures can be used to wrap images, iframes, or other media with a caption.</p>
@@ -142,56 +142,56 @@
         <img src="https://via.placeholder.com/600x300/ccc/666?text=Salt+Crystals" alt="A placeholder image of salt crystals">
         <figcaption>Fig. 1: Close-up of salt crystals, showing their unique forms.</figcaption>
       </figure>
-    
+
       <figure>
         <iframe src="about:blank" height="300" width="100%" title="An embedded video about salt production"></iframe>
         <figcaption>Fig. 2: An embedded video demonstrating salt harvesting methods.</figcaption>
       </figure>
     </section>
-    
+
     <hr>
-    
+
     <section id="forms">
       <h2>Forms & Inputs</h2>
       <form action="#!" onsubmit="alert('Recipe submitted!'); return false;">
         <fieldset>
           <legend>Ingredient Details</legend>
-    
+
           <div>
             <label for="text-input">Ingredient Name</label>
             <input type="text" id="text-input" placeholder="e.g., Sea Salt">
           </div>
-    
+
           <div>
             <label for="pass-input">Secret Ingredient Code</label>
             <input type="password" id="pass-input" value="secretFlavor">
           </div>
-    
+
           <div>
             <label for="email-input">Chef's Email</label>
             <input type="email" id="email-input" placeholder="e.g., chef@kitchen.com">
           </div>
-    
+
           <div>
             <label for="url-input">Recipe Link</label>
             <input type="url" id="url-input" placeholder="https://myrecipes.com/best-salt-dish">
           </div>
-    
+
           <div>
             <label for="tel-input">Kitchen Hotline</label>
             <input type="tel" id="tel-input" placeholder="123-SALT-NOW">
           </div>
-    
+
           <div>
             <label for="search-input">Search Recipes</label>
             <input type="search" id="search-input" placeholder="Search for 'salted caramel'">
           </div>
-    
+
         </fieldset>
-    
+
         <fieldset>
           <legend>Flavor Profile & Usage</legend>
-    
+
           <div>
             <label for="select-input">Salt Texture</label>
             <select id="select-input">
@@ -204,38 +204,38 @@
               <option disabled>Granular (Out of Stock)</option>
             </select>
           </div>
-    
+
           <div>
             <label for="textarea-input">Flavor Notes</label>
             <textarea id="textarea-input" rows="5" placeholder="Describe its taste, origin, and best use..."></textarea>
           </div>
-    
+
           <div>
             <label for="number-input">Amount (grams)</label>
             <input type="number" id="number-input" value="5" min="0" max="1000" step="1">
           </div>
-    
+
           <div>
             <label for="date-input">Date of Harvest</label>
             <input type="date" id="date-input">
           </div>
-    
+
           <div>
             <label for="range-input">Salinity Level</label>
             <input type="range" id="range-input" min="0" max="10" value="7">
           </div>
-    
+
           <div>
             <label for="file-input">Upload Photo of Dish</label>
             <input type="file" id="file-input">
           </div>
-    
+
           <div>
             <label for="color-input">Color of Salt</label>
             <input type="color" id="color-input" value="#cccccc">
           </div>
         </fieldset>
-    
+
         <fieldset>
           <legend>Purpose</legend>
           <p>How will this salt be primarily used?</p>
@@ -247,7 +247,7 @@
             <input type="checkbox" name="affirm" checked> I attest this salt is fit for culinary use.
           </label>
         </fieldset>
-    
+
         <fieldset>
           <legend>Actions & Buttons</legend>
           <p>Hover and click the buttons to test their different states. A good framework ensures these are well-defined.</p>
@@ -256,7 +256,7 @@
           <input type="button" value="Test Button">
           <button type="button">Cook Now!</button>
           <a href="#!" class="button">See More Ingredients</a>
-    
+
           <h3>Disabled States</h3>
           <input type="submit" value="Out of Season" disabled>
           <button type="button" disabled>Recipe Locked</button>
