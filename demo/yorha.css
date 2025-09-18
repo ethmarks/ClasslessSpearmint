@@ -1,3 +1,4 @@
+/* Source: https://cdn.jsdelivr.net/npm/yorha@1.2.0/dist/yorha.min.css */
 ::selection {
   background-color: #bab5a1;
 }
@@ -711,4 +712,3 @@ button:not(:disabled):active:after,
   color: #bab5a1;
   font-weight: lighter;
 }
-
