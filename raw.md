@@ -1,5 +1,5 @@
 ---
-layout: raw
+layout: demo
 ---
 
-{% include_relative README.md %}
+<link rel="stylesheet" href="raw.css">
