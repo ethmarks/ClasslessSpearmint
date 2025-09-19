@@ -14,9 +14,11 @@
     --color-border: rgba(255, 255, 255, 0.15);
     --color-border-light: rgba(255, 255, 255, 0.1);
     --color-table-header-bg: rgba(20, 20, 20, 0.8);
+
     --color-table-bg: #1f1f1f;
-    --color-table-bg-zebra: #1d1d1d;
-    --color-table-row-hover: rgba(143, 223, 212, 0.1);
+    --color-table-bg-zebra: #1c1c1c;
+    --color-table-row-hover: rgba(49,49,49,.5);
+
     --color-snippet-bg: #1f1f1f;
     --color-button-text: #111;
     --color-focus-outline: var(--color-accent);
