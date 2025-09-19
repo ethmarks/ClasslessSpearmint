@@ -172,6 +172,13 @@ pre {
     line-height: 1.4;
     box-shadow: var(--shadow-article);
     margin: 1.5rem 0;
+
+    & code {
+        background-color: transparent;
+        border: none;
+        border-radius: 0;
+        padding: 0;
+    }
 }
 
 code {
