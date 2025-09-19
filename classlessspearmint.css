@@ -7,10 +7,14 @@
     --color-text: #e0e0e0;
     --color-text-secondary: #c0c0c0;
     --color-accent: #8fdfd4;
+    --color-accent-light: #a3e5dc;
     --color-accent-medium: #8dd4cc;
     --color-accent-dark: #7db8b0;
-    --color-link: var(--color-accent);
-    --color-link-hover: white;
+
+    --color-link: var(--color-accent-light);
+    --color-link-underline: color-mix(in srgb, var(--color-accent) 30%, transparent);
+    --color-link-underline-hover: var(--color-accent);
+
     --color-border: rgba(255, 255, 255, 0.15);
     --color-border-light: rgba(255, 255, 255, 0.1);
     --color-table-header-bg: rgba(20, 20, 20, 0.8);
@@ -69,13 +73,13 @@ p {
 
 a {
     color: var(--color-link);
-    text-decoration: none;
-    transition: color 0.2s ease, text-decoration 0.2s ease;
-}
-
-a:hover {
-    color: var(--color-link-hover);
     text-decoration: underline;
+    text-decoration-color: var(--color-link-underline);
+    transition: text-decoration-color 0.2s ease;
+
+    &:hover {
+        text-decoration-color: var(--color-link-underline-hover);
+    }
 }
 
 mark {
