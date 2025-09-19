@@ -50,6 +50,7 @@ body {
     line-height: 1.5;
     font-weight: 400;
     letter-spacing: 0.02rem;
+    overflow-x: hidden;
     background-image: radial-gradient(
             circle at 10% 10%,
             rgba(143, 223, 212, 0.1),
@@ -61,6 +62,12 @@ body {
             transparent 40%
         );
 }
+
+* {
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
 
 ::selection {
     background-color: var(--color-accent);
